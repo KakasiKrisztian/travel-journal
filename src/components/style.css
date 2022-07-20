@@ -1,0 +1,153 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-content: center;
+
+    width: 100%;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+
+    background: #F55A5A;
+}
+
+.main{
+    width: 100%;
+    margin-left: 15px;
+}
+
+.navbar--logo{
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 - 50px);
+    top: calc(50% - 24px/2 - 324px);
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.navbar--title {
+    width: 200px;
+    height: 16px;
+    left: 244px;
+    top: 20px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 15.4608px;
+    line-height: 18px;
+
+    margin-right: auto;
+
+
+    color: #FFFFFF;
+}
+
+.card-section {
+    display: flex;
+    padding: 15px;
+    width: 100%;
+  }
+.card--photo {
+    width: 300px;
+    height: 268px;
+    left: 40px;
+    top: 100px;
+  
+    /* background: url(.png); */
+    border-radius: 5px;
+}
+
+.mini-section{
+    width: 100%;
+    display: flex;
+    align-content: center;
+
+}
+
+.location--icon{
+    width: 20px;
+    height: 19.55px;
+    padding-top: 10px;
+    padding-left: 15px;
+
+}
+
+.location--name {
+    width: 300px;
+    height: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+
+    color: #2B283A;
+}
+
+.location--link{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #918E9B;
+}
+
+.description-section {
+    width: 500px;
+    padding-left: 22px;
+    margin-top: -15px;
+}
+
+.desc--title {
+    width: 326px;
+    height: 25px;
+    left: 184px;
+    top: 136px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #2B283A;
+}
+
+.desc--date {
+    width: 319px;
+    height: 11px;
+    left: 184px;
+    top: 380px;
+
+    font-weight: 700;
+    font-size: 12.24px;
+    line-height: 12px;
+
+    color: #2B283A;
+}
+
+.desc--description {
+    width: 100%;
+    height: 60px;
+    left: 184px;
+    top: 400px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #2B283A;
+}
